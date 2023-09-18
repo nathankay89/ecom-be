@@ -1,14 +1,14 @@
+// loads modules
 const { Model, DataTypes } = require('sequelize');
-
-const sequelize = require('../config/connection.js');
+const sequelize = require('../config/connection');
 
 class Category extends Model {}
-
+//initial category table in sequelize
 Category.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      allownull: false,
+      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
     },
@@ -25,5 +25,5 @@ Category.init(
     modelName: 'category',
   }
 );
-
+//exports catergory
 module.exports = Category;
