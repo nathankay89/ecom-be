@@ -59,10 +59,8 @@ node server.js
 
 # Demo video
 
-[![Watch the video demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+You can watch a demo of the project in action by clicking [here](https://youtu.be/t5LI-utMubo).
 
-You can watch a demo of the project in action by clicking the image above or [here](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE).
-
-## "license"> 
+## license
 
 This project is licensed under The MIT License. Here is the link to the license to access more information for your reference: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
