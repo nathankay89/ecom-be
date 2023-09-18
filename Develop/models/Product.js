@@ -1,4 +1,4 @@
-// loads modules
+// loads models
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 

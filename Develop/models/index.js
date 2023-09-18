@@ -1,4 +1,4 @@
-// loads modules
+// loads models
 
 const Category = require('./Category');
 const Product = require('./Product');

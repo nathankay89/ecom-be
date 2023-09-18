@@ -1,9 +1,9 @@
-// loads modules
+// loads models
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
-//initialize product tag in database
+//initialize product tag 
 ProductTag.init(
   {
     id: {
@@ -35,5 +35,5 @@ ProductTag.init(
     modelName: 'product_tag',
   }
 );
-//exports product tag table
+//exports product 
 module.exports = ProductTag;

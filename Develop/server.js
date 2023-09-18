@@ -1,4 +1,4 @@
-//loads required mosules
+//loads required models
 
 const express = require('express');
 const sequelize = require('./config/connection');
